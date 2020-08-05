@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-int my_strtoint(char tab[]){
+int my_strtoint(char *tab){
     int number=0,unite=0;
     char lettre='0';
 

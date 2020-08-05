@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-int my_strcmp(char tab1[], char tab2[]){
+int my_strcmp(char *tab1, char *tab2){
     int is_same = 0, i = 0;
 
     if (tab1 && tab2){

@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-char *my_strchr(char tab[], char letter){
+char *my_strchr(char *tab, char letter){
     char *ptr = NULL;
 
     if (tab){

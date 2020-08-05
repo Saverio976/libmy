@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-char *my_inttostr(int number, char tab[]){
+char *my_inttostr(int number, char *tab){
     int i = 0;
 
     while (number){

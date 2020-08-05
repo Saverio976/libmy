@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-void my_strrev(char tab[]){
+void my_strrev(char *tab){
     char inv,inv_inv;
     int len = my_strlen(tab)-1;
 

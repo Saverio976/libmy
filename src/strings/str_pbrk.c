@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-char *my_strpbrk(char tab[], char letters[]){
+char *my_strpbrk(char *tab, char *letters){
     char *ptr = NULL;
 
     if (tab){

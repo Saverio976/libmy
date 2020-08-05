@@ -3,8 +3,6 @@ c041ng By Paradox
 */
 #include "../include/my_lib.h"
 
-int my_rewind(int fd, char *file_name, char *mode){
-    my_close(fd);
-
-    return (my_open(file_name, mode));
+int my_rewind(int fd){
+    return (my_lseek(fd, 0, "SEEK_SET"));
 }

@@ -11,6 +11,9 @@ SRC =	./src/std.in.out/read.c	\
 	./src/file/fd_read.c	\
 	./src/file/fd_rewind.c	\
 	./src/file/fd_write.c	\
+	./src/file/fd_lseek.c	\
+	./src/file/fd_rename.c	\
+	./src/file/fd_delete.c	\
 	./src/number/nb_pow.c	\
 	./src/strings/str_str.c	\
 	./src/strings/str_rev.c	\
@@ -20,6 +23,9 @@ SRC =	./src/std.in.out/read.c	\
 	./src/strings/str_cpy.c	\
 	./src/strings/str_cmp.c	\
 	./src/strings/str_cat.c	\
+	./src/strings/str_upper.c	\
+	./src/strings/str_lower.c	\
+
 
 OBJECT =	read.o	\
 		write.o	\
@@ -30,6 +36,9 @@ OBJECT =	read.o	\
 		fd_read.o	\
 		fd_rewind.o	\
 		fd_write.o	\
+		fd_lseek.o	\
+		fd_rename.o	\
+		fd_delete.o	\
 		nb_pow.o	\
 		str_str.o	\
 		str_rev.o	\
@@ -39,15 +48,17 @@ OBJECT =	read.o	\
 		str_cpy.o	\
 		str_cmp.o	\
 		str_cat.o	\
+		str_upper.o	\
+		str_lower.o	\
 
 
 
 
 help:
-	less ./DOC/HELP-EN
+	less ./DOC/HELP-EN.md
 
 aide:
-	less ./DOC/AIDE-FR
+	less ./DOC/AIDE-FR.md
 
 init:
 	gcc -c $(SRC)

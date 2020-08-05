@@ -8,12 +8,16 @@ int my_readlines(int fd, char *tab, int max){
     int i = 0;
     int n;
     char letter;
-    while ((n = read(fd, &letter, 1)) && letter != '\n' && i < max-1){
+
+    while ((n = read(fd, &letter, 1)) > 0 && i < max){
+        if (letter == '\n'){
+            tab[i] = letter;
+            tab[i++] = '\0';
+            return (n);
+        }
         tab[i] = letter;
         i++;
     }
-    tab[i] = '\0';
-
     return (n);
 }
 
@@ -27,5 +31,5 @@ int my_readall(int fd, char *tab, int max){
         tab[i] = '\0';
     }
 
-    return (0);
+    return (i);
 }

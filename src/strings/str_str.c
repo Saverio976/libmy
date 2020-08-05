@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-char *my_strstr(char tab1[], char tab2[]){
+char *my_strstr(char *tab1, char *tab2){
     char *ptr = NULL;
 
     if (tab1 && tab2){

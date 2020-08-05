@@ -3,7 +3,7 @@ c041ng 8y Paradox
 */
 #include "../include/my_lib.h"
 
-int my_strlen(char tab[]){
+int my_strlen(char *tab){
     int nb_char = 0;
 
     if (tab){
