@@ -6,6 +6,7 @@ SRC =	./src/std.in.out/read.c	\
 	./src/std.in.out/write.c	\
 	./src/conversion/int_to_str.c	\
 	./src/conversion/str_to_int.c	\
+	./src/conversion/char_to_int.c	\
 	./src/file/fd_close.c	\
 	./src/file/fd_open.c	\
 	./src/file/fd_read.c	\
@@ -31,6 +32,7 @@ OBJECT =	read.o	\
 		write.o	\
 		int_to_str.o	\
 		str_to_int.o	\
+		char_to_int.o	\
 		fd_close.o	\
 		fd_open.o	\
 		fd_read.o	\
