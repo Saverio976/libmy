@@ -1,5 +1,8 @@
 /*
 c041ng By Paradox
+
+int my_delete(char *file_name);
+supprime le fichier
 */
 #include "../include/my_lib.h"
 
