@@ -2,8 +2,8 @@ TARGET = libmy.a
 
 NAME_OF_THE_PROG = main.c
 
-SRC =	./src/std.in.out/read.c	\
-	./src/std.in.out/write.c	\
+SRC =	./src/std_in_out/read.c	\
+	./src/std_in_out/write.c	\
 	./src/conversion/int_to_str.c	\
 	./src/conversion/str_to_int.c	\
 	./src/conversion/char_to_int.c	\
@@ -57,10 +57,10 @@ OBJECT =	read.o	\
 
 
 help:
-	less ./DOC/HELP-EN.md
+	less ./DOC/DOC-EN.md
 
 aide:
-	less ./DOC/AIDE-FR.md
+	less ./DOC/DOC-FR.md
 
 init:
 	gcc -c $(SRC)
