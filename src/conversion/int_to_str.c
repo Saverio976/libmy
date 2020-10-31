@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+char *my_inttostr(int number, char *tab);
+transforme un nombre en une chaine de charactere
 */
 #include "../include/my_lib.h"
 
