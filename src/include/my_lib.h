@@ -19,7 +19,7 @@ int my_close(int fd);
 
 int my_open(char *name_file, char *mode);
 
-int my_readlines(int fd, char *tab, int max);
+int my_readline(int fd, char *tab, int max);
 
 int my_readall(int fd, char *tab, int max);
 
@@ -39,7 +39,8 @@ int my_delete(char *file_name);
 
 
 // Number
-unsigned long long int my_pow(int nombre, int exposant);
+int my_pow(int nombre, int exposant);
+unsigned long long int my_hard_pow(int nombre, int exposant);
 
 
 // Std.in.out
