@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+void my_strcpy(char *tab1, char *tab2);
+copie tab2 dans tab1
 */
 #include "../include/my_lib.h"
 

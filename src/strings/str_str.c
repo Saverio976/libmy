@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+char *my_strstr(char *tab1, char *tab2);
+recherche une une chaine de caractere tab2 dans tab1
 */
 #include "../include/my_lib.h"
 

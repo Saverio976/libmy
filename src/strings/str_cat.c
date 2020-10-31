@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+void my_strcat(char *tab1, char *tab2);
+concatene tab2 dans tab1
 */
 #include "../include/my_lib.h"
 

@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+char *my_strlower(char *tab);
+met la chaine de caractere en minuscule
 */
 #include "../include/my_lib.h"
 

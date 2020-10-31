@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+void my_strrev(char *tab)
+met à l'envers la chaine de caractere
 */
 #include "../include/my_lib.h"
 

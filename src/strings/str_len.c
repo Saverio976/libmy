@@ -1,5 +1,8 @@
 /*s
 c041ng 8y Paradox
+
+int my_strlen(char *tab);
+renvoi le nombre de caractere du tableau
 */
 #include "../include/my_lib.h"
 

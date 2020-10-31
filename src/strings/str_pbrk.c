@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+char *my_strpbrk(char *tab, char *letters);
+recherche une occurence de la première lettre trouvée parmis letters
 */
 #include "../include/my_lib.h"
 

@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+char *my_strchr(char *tab, char letter);
+cherche la première ocurence d'une lettre dans une  chaine de caractere
 */
 #include "../include/my_lib.h"
 

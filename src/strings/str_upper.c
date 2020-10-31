@@ -1,5 +1,8 @@
 /*
 c041ng 8y Paradox
+
+char *my_strupper(char *tab);
+met la chaine de caractere en majuscule
 */
 #include "../include/my_lib.h"
 

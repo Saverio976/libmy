@@ -1,10 +1,14 @@
 /*
 c041ng 8y Paradox
+
+int my_strcmp(char *tab1, char *tab2);
+compare deux chaines de caractere
 */
 #include "../include/my_lib.h"
 
 int my_strcmp(char *tab1, char *tab2){
-    int is_same = 0, i = 0;
+    int is_same = 0;
+    int i = 0;
 
     if (tab1 && tab2){
         if (my_strlen(tab1) == my_strlen(tab2)){
