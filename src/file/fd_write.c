@@ -21,7 +21,7 @@ int my_write_str(int fd, char *tab){
 }
 
 int my_write_int(int fd, int number){
-    char tab[TAILLE_MAX];
+    char tab[MAX_SIZE_IN_LIB];
 
     my_inttostr(number, tab);
     return(my_write_str(fd, tab));

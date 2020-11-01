@@ -27,7 +27,7 @@ void print_str(char *tab){
 }
 
 void print_nb(int number){
-    char tab[TAILLE_MAX];
+    char tab[MAX_SIZE_IN_LIB];
     my_inttostr(number, tab);
     print_str(tab);
 }

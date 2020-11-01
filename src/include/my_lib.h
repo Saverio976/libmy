@@ -4,7 +4,7 @@
 #define __MY_LIB_H__
 
 #include <unistd.h>
-#define TAILLE_MAX  100
+#define MAX_SIZE_IN_LIB 100
 
 // Conversion
 char *my_inttostr(int number, char *tab);
